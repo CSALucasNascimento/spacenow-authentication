@@ -1,6 +1,7 @@
 import React from 'react'
 import './SignUp.scss'
 import { Auth } from 'aws-amplify'
+import BirthDate from 'birthdate';
 
 class SignUp extends React.Component {
 
@@ -85,6 +86,7 @@ class SignUp extends React.Component {
                 Please choose a phone.
             </div>
           </div>
+          <BirthDate />
           <div className="form-group form-check">
             <input type="checkbox" className="form-check-input" />
             <label className="form-check-label">Check me out</label>

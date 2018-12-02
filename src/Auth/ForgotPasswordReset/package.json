@@ -1,0 +1,8 @@
+{
+  "name": "forgotpasswordreset",
+  "version": "1.0.0",
+  "description": "This component represents forgot password reset",
+  "main": "ForgotPasswordReset.jsx",
+  "author": "Lucas Nascimento",
+  "license": "MIT"
+}

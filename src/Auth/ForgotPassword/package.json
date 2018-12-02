@@ -1,0 +1,8 @@
+{
+  "name": "forgotpassword",
+  "version": "1.0.0",
+  "description": "This component represents forgot password",
+  "main": "ForgotPassword.jsx",
+  "author": "Lucas Nascimento",
+  "license": "MIT"
+}

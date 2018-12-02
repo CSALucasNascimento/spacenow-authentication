@@ -18,6 +18,8 @@ import {
   ConfirmSignIn,
   SignUp,
   ConfirmSignUp,
+  ForgotPassword,
+  ForgotPasswordReset
 } from './Auth';
 
 const CustomAuthenticator = props => (
@@ -26,6 +28,8 @@ const CustomAuthenticator = props => (
     <ConfirmSignIn />
     <SignUp />
     <ConfirmSignUp />
+    <ForgotPassword />
+    <ForgotPasswordReset />
   </Authenticator>
 )
 
